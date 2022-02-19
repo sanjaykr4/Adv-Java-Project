@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add Product</title>
+</head>
+<body style="background-image: url(Images/PageBackground.png)">
+<style>
+    #Head
+    {
+        text-align: center;
+    }
+    form
+    {
+        border: solid;
+        margin: auto;
+        padding: auto;
+        display: block;
+        height: 200px;
+        width: 900px;
+    }  
+     label{ padding: 1cm;  }
+  
+ </style>
+
+<p>
+ <a href="AdminWelcome.html"><img src="Images/HomeLogo.png" style="width:50px" title="Home"></a>
+</p>
+<form action="AddProduct" method="Post">
+<h1 id="Head">Add Product</h1>
+<hr><br>
+
+<label>Product ID</label>
+<input type="Number" Name="ProductId" placeholder="Product ID"> 
+<label>Name</label>
+<input type="text" Name="Name" placeholder="Enter Name"> <br>
+<label>Price</label>
+<input type="Number" Name="Price" placeholder="Enter Price">
+<label>Quantity</label>
+<input type="Number" Name="Quantity" placeholder="Enter Quantity"> <br>
+<label>Discount</label>
+<input type="Number" Name="Discount" placeholder="Enter Discount">
+
+<input type="submit" value="Submit"> <br>
+
+</form>
+</body>
+</html>

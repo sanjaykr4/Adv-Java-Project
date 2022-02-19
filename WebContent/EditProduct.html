@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Edit Product</title>
+</head>
+<body style="background-image: url(Images/PageBackground.png)">
+<style>
+    #Head
+    {
+        text-align: center;
+    }
+    form
+    {
+        border: solid;
+        margin: auto;
+        padding: auto;
+        display: block;
+        height: 200px;
+        width: 900px;
+    }  
+     label{ padding: 1cm;  }
+  
+ </style>
+
+<p>
+ <a href="AdminWelcome.html"><img src="Images/HomeLogo.png" style="width:50px" title="Home"></a>
+</p>
+<form action="EditProduct" method="Post">
+<h1 id="Head">Edit Product</h1>
+<hr><br>
+
+<label> <b>Enter ProductID to Edit Product </b></label> <br> <br>
+<label>Product ID</label>
+<input type="Number" Name="ProductId"> 
+<label>Update Quantity</label>
+<input type="Number" Name="UpdatedQuantity"> 
+
+
+<input type="submit" value="Edit"> <br>
+
+</form>
+
+</body>
+</html>

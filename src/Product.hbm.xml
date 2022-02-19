@@ -1,0 +1,17 @@
+        
+     <hibernate-mapping>  
+     
+      <class name="com.sanjay.Product" table="Product">  
+        
+        <id name="ProductId">  
+         <generator class="assigned"></generator>  
+        </id>  
+                
+        <property name="Name"></property>  
+        <property name="Price"></property>  
+        <property name="Quantity"></property>  
+        <property name="Discount"></property>  
+                
+      </class>  
+                
+     </hibernate-mapping>  
