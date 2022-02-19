@@ -102,7 +102,7 @@ public class ControllerServlet extends HttpServlet {
 		}
 
 	}
-
+//this is a new comment 
 	private void searchProduct(HttpServletRequest request, HttpServletResponse response)
 			throws IOException, ServletException {
 
